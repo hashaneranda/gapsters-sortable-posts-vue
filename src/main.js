@@ -1,8 +1,17 @@
-import Vue from 'vue'
-import App from './App.vue'
+import Vue from "vue";
 
-Vue.config.productionTip = false
+//app componenet
+import App from "./app/App.vue";
+
+import store from "@/app/store";
+
+import "./assets/styles/index.css";
+
+// Vue.use(Vuex);
+
+Vue.config.productionTip = false;
 
 new Vue({
-  render: h => h(App),
-}).$mount('#app')
+  render: (h) => h(App),
+  store: store,
+}).$mount("#app");
