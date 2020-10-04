@@ -8,7 +8,8 @@
     bg-gray-200
     rounded-lg
     shadow-xl"
-    v-bind:class="className"
+    :class="className"
+    data-testid="action-list"
   >
     <div class="p-5 bg-white">
       <h1 class="flex-grow text-xl leading-tight text-gray-900">
@@ -19,8 +20,8 @@
       <ActionItem
         v-for="action in actionStackReverse"
         :key="action.action"
-        v-bind:title="action.action"
-        v-bind:handleTimeTravel="() => handleTimeTravel(action.action)"
+        :title="action.action"
+        :handleTimeTravel="() => handleTimeTravel(action.action)"
       />
     </div>
   </div>
