@@ -61,7 +61,6 @@ src\
  |--app\            # Application main layout and functions
  |--assets\         # Assets
  |--components\     # Compoenents
- |--middlewares\    # Custom express middlewares
  |--config\         # Configrations of the app (Constants, Images links)
  |--features\       # App features (Vuex modules)
  |--services\       # Services for API calls and functions
