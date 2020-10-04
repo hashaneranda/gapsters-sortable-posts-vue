@@ -6,7 +6,7 @@
 - [tailwindcss](https://github.com/tailwindlabs/tailwindcss) (CSS framework)
 - [Axios](https://github.com/mzabriskie/axios) (a library for XMLHttpRequests)
 
-... For testing:
+For testing:
 
 - [Facebook/Jest](https://facebook.github.io/jest/)
 - [Testing-library/Vue](https://testing-library.com/docs/vue-testing-library/intro)
@@ -14,7 +14,7 @@
 
 ## Getting Started
 
-## Installation
+### Installation
 
 Clone the repo:
 
