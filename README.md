@@ -9,7 +9,7 @@
 ... For testing:
 
 - [Facebook/Jest](https://facebook.github.io/jest/)
-- [Testing-library](https://testing-library.com/docs/vue-testing-library/intro)
+- [Testing-library/Vue](https://testing-library.com/docs/vue-testing-library/intro)
 - [Jest-dom](https://github.com/testing-library/jest-dom) (Custom jest matchers to test the state of the DOM)
 
 ## Getting Started
