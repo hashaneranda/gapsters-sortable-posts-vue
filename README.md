@@ -1,4 +1,4 @@
-# gapsters-post-list-vue
+# post-list-vue
 
 ## What's inside
 
